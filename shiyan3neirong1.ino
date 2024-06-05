@@ -17,7 +17,7 @@ void loop() {
   Serial.print(t);
   Serial.print("°C      ");
   Serial.print("当前闪烁时延: ");
-  Serial.print((40-t)*100);
+  Serial.print((46-t)*100);
   Serial.println("ms    ");
   if(t > 45)
     digitalWrite(9,HIGH);
